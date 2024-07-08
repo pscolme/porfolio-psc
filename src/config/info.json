@@ -1,0 +1,36 @@
+{
+    "firstImage": "/pablo.jpeg",
+    "greeting": "Buenas, soy Pablo",
+    "profession": "Software Engineer",
+    "yearsOfExperience": "+5 años de experiencia.",
+    "strongText": "Ingeniero de Electrónica Industrial y Automática",
+    "descriptionText": " de Madrid. Especializado en el desarrollo de aplicaciones web y móviles.",
+    "linkedin": "https://linkedin.com/in/pablocolmenero",
+    "mailto": "mailto:pabloscolme@gmail.com",
+    "experience": [
+        {
+            "date": "Actualmente",
+            "title": "Freelance",
+            "company": "Brodevs",
+            "description": "Desarrollo aplicaciones web y móviles junto a mi hermano Mario, ofreciendo soluciones de digitalización y adaptándonos a las necesidades específicas de nuestros clientes."
+        },
+        {
+            "date": "2021-Actualmente",
+            "title": "Software Developer/Engineer",
+            "company": "Siemens Rail Automation",
+            "description": "Desarrollo sistemas de señalización ferroviaria. Responsable del centro de control Rail9000, un sistema flexible que permite la integración de funciones, como la automatización de rutas y la regulación o la interacción con otros sistemas a través de una interfaz segura para intercambio de información con sistemas externos."
+        },
+        {
+            "date": "2019-2021",
+            "title": "Safety Engineer",
+            "company": "Expleo Group",
+            "description": "Automatización de pruebas para la validación y verificación de software. Análisis de requisitos. Uso de simuladores y máquinas virtuales. Scripting y mejora de procesos."
+        },
+        {
+            "date": "2015-2019",
+            "title": "Industrial Electronics and Automation Engineering",
+            "company": "Universidad Carlos III",
+            "description": "Grado de ingeniería bilingüe, donde encontré mi pasión por este sector y en el que desarrollé mis primeros proyectos."
+        }
+    ]
+}

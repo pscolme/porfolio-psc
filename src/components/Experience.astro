@@ -1,0 +1,15 @@
+---
+import info from "@/config/info.json";
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCIE = info.experience;
+---
+
+<ol class="relative mt-16">
+    {
+        EXPERIENCIE.map((experiencie) => (
+            <li class="">
+                <ExperienceItem {...experiencie} />
+            </li>
+        ))
+    }
+</ol>

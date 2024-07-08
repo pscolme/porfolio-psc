@@ -1,0 +1,43 @@
+---
+const personalImageAlt = "Pablo Sanchez";
+---
+
+<article
+    class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+    <div
+        class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+    >
+        <p>
+            Me llamo Pablo Sánchez Colmenero. Encontré mi pasión por la
+            programación durante el desarrollo de mi carrera. Sin embargo, me
+            gusta seguir con mi <strong>formación continua</strong> en las últimas
+            tecnologías del sector.
+        </p>
+
+        <p>
+            He participado en proyectos grandes
+            <strong>trabajando en equipo</strong> con más de 50 personas. Además,
+            he realizado múltiples proyectos individualmente. Actualmente, trabajo
+            codo con codo junto a mi hermano Mario desarrollando aplicaciones web
+            y móviles.
+        </p>
+
+        <p>
+            Como desarrollador de software, <strong
+                >busco ayudar a las personas para llevar sus negocios un paso
+                más allá y acompañarlos en su camino hacia la digitalización</strong
+            >. Mi objetivo es acabar con la desinformación y desconocimiento de
+            este bonito sector.
+        </p>
+    </div>
+
+    <img
+        width="200"
+        height="200"
+        src="/aboutMePablo.jpeg"
+        alt={personalImageAlt}
+        class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20"
+        style="object-position: 50% 50%"
+    />
+</article>
